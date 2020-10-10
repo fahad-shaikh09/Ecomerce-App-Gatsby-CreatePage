@@ -1,17 +1,16 @@
 import React from "react"
-import Header from "./../components/header"
-import Footer from "./../components/footer"
+import Layout from "../components/layout"
+// import Header from "./../components/header"
+// import Footer from "./../components/footer"
 
 
 
 export default function Contact() {
     return (
-        <div>
-            <Header />
+        <Layout>
 
             <h1>Contact us</h1>
-            <Footer />
 
-        </div>
+        </Layout>
     )
 }
