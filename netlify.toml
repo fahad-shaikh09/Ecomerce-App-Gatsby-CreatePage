@@ -1,0 +1,3 @@
+[build]
+    command="yard build"
+    publish = "public/"

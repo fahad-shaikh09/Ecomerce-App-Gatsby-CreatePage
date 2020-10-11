@@ -16,11 +16,11 @@ const Product = ({ pageContext }) => {
             <ul>
                 {products.map(prod => (
                     <li key={prod.slug}>
-                        <Link to={prod.slug} > {prod.productTitle} </Link>
-
-                    </li>     
-            ))
-        }
+                        <h2>  <Link to={prod.slug} > {prod.productTitle} </Link> </h2>
+                        <img src={prod.image.fluid.src} height="200px" width="200px" alt={prod.slug} /> <br />
+                    </li>
+                ))
+                }
             </ul>
 
 
