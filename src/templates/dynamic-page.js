@@ -14,7 +14,7 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
 export default ({ pageContext }) => {
     const { itemDetails } = pageContext
-    console.log("itemDetails:", itemDetails)
+    // console.log("itemDetails:", itemDetails)
     return (
         <Layout>
             <h1> Title: {itemDetails.productTitle}</h1>
